@@ -1,0 +1,203 @@
+
+.description{
+    font-size: 14px;
+    padding-top: 1px;
+}
+nav{
+  background-image: linear-gradient(to right, white,rgb(234, 157, 14));   
+}
+
+#search{
+  border: none;
+  background-color:  rgba(76, 175, 80, 0);
+
+}
+.inputfield{
+   padding: px;
+}
+#home-page{
+  background-image: linear-gradient(to right, white,rgb(234, 157, 14));   
+}
+
+
+.nav-item:hover i{
+    color:lightgray;
+    transition: 0.3s;
+}   
+
+
+.card-body{
+    height:min-content ;
+    background-color: rgb(246, 201, 117);
+}
+.card:hover .card-body{
+    background-image: linear-gradient(to left,white, rgb(234, 157, 14));
+    color: lightgray;
+   
+}
+.card:hover{
+    box-shadow: 5px 5px 5px 5px lightslategray;
+}
+#download{
+    width: 180px;
+    border-radius: 10px;
+    
+}
+#download:hover{
+    box-shadow: 5px 5px 5px 3px rgb(59, 59, 59) ;
+}
+#download-bar{
+  background-image: linear-gradient(to right, white,rgb(234, 157, 14));
+}
+
+
+
+
+#about-page{
+  background-image: linear-gradient(to right, white,rgb(234, 157, 14));
+
+}
+.img-fluid{
+  height: 400px;
+}
+.direct-img-login{
+  height: 180px;
+}
+#contact-page{
+  background-image: linear-gradient(to right, white,rgb(234, 157, 14));
+
+}
+
+
+
+
+
+
+
+
+
+
+#direct-page{
+  background-image: linear-gradient(to right, white,rgb(234, 157, 14));
+}
+#product-page{
+  background-image: linear-gradient(to right, white,rgb(234, 157, 14));
+}
+
+
+#domestic-wine  button,#imported-wine button{
+  color: white;
+  background-color:orange;
+  border-radius: 10px;
+  border: none;
+
+}
+
+#domestic-wine button:hover ,#imported-wine button:hover{
+  box-shadow: 10px 6px 5px lightblue;
+  background-color: white;
+  color: orange;
+  
+}
+#imported-rum button,#indian-rum button{
+  color: white;
+  background-color:orange;
+  border-radius: 10px;
+  border: none;
+}
+
+#imported-rum button:hover,#indian-rum button:hover{
+  box-shadow: 10px 6px 5px lightblue;
+  background-color: white;
+  color: orange;
+}
+#domestic-beer button,#international-beer button{
+  color: white;
+  background-color:orange;
+  border-radius: 10px;
+  border: none;
+}
+#domestic-beer button:hover,#international-beer button:hover{
+  box-shadow: 10px 6px 5px lightblue;
+  background-color: white;
+  color: orange;
+}
+#sake-direct button{
+  color:orange;
+  background-color:white;
+  border-radius: 10px;
+  border: none;
+}
+#sake-direct button:hover{
+  box-shadow: 10px 6px 5px lightblue;
+  background-color:orange;
+  color: white;
+}
+#rtd-direct button{
+  color: orange;
+  background-color:white;
+  border-radius: 10px;
+  border: none;
+}
+#rtd-direct button:hover{
+  box-shadow: 10px 6px 5px lightblue;
+  background-color:orange;
+  color: white;
+}
+#mixers-direct button{
+  color: orange;
+  background-color:white;
+  border-radius: 10px;
+  border: none;
+}
+#mixers-direct button:hover{
+  box-shadow: 10px 6px 5px lightblue;
+  background-color:orange;
+  color: white;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+   .description{
+    font-size: 13px;
+   }
+    #search{
+    margin-top: 10px;
+   } 
+   .nav-item{
+    font-size: 13px;
+   }
+   .form-control{
+    margin-top: 10px;
+   }
+    .carousel-item img{
+    height: 250px;
+   }
+   
+  .card-title{
+    
+    font-size: 12px;
+    
+  }
+  .card-body{
+   max-height: 14px;
+  }
+  .app-download h5{
+    font-size: 13px;
+  }
+  #download{
+    width: 70px;
+  }
+  .down-bar{
+    font-size: 13px;
+  }
+  .down-bar h3{
+    font-size: 15px;
+  }
+
+  
+}
+
+    
+  

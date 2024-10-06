@@ -1,0 +1,1672 @@
+
+$(document).ready(function(){
+    $('#nav-login').click(function(){
+            $('#login-page').show();
+            
+            $('#home-page').hide();
+            $('#about-page').hide(); 
+            $('#contact-page').hide();
+            $('#direct-page').hide();
+            $('#product-page').hide();
+            $('.cart').hide();       
+    })
+
+})
+
+
+$(document).ready(function(){
+    $('#nav-about').click(function(){
+            $('#about-page').show();
+            $('#home-page').hide();
+            $('#product-page').hide();
+            $('#contact-page').hide();
+            $('#login-page').hide();
+            $('#direct-page').hide();
+            $('.cart').hide();
+          
+    })
+})
+
+$(document).ready(function(){
+    $('#nav-contact').click(function(){
+            $('#contact-page').show();
+            $('#home-page').hide();
+            $('#product-page').hide();
+            $('#about-page').hide();
+            $('#login-page').hide();
+            $('#direct-page').hide();
+            $('.cart').hide();
+          
+    })
+})
+$(document).ready(function(){
+    $('#nav-home').click(function(){
+            $('#home-page').show();
+            $('#contact-page').hide();
+            $('#login-page').hide();
+            $('#about-page').hide();
+            $('#direct-page').hide(); 
+            $('#product-page').hide();  
+            $('.cart').hide();
+              
+    })
+})
+
+$(document).ready(function(){
+    $('#wine').click(function(){
+            $('#direct-page').show();
+            $('#direct-image').show();
+            $('#wine-direct').show();
+            $('#wine-content').show();
+            $('#home-page').hide();
+            $('#product-page').hide();
+            $('#spirit-direct').hide();
+            $('#beer-direct').hide();
+            $('#beer-content').hide();
+            $('#sake-direct').hide();
+            $('#rtd-direct').hide();
+            $('#mixers-direct').hide();
+            $('.cart').hide();
+          
+    })
+})
+$(document).ready(function(){
+    $('#spirit').click(function(){
+            $('#direct-page').show();
+            $('#direct-image').show();
+            $('#spirit-direct').show();
+            $('#home-page').hide();
+            $('#product-page').hide();
+            $('#wine-direct').hide();
+            $('#wine-content').hide();
+            $('#beer-direct').hide();
+            $('#beer-content').hide();
+            $('#sake-direct').hide();
+            $('#rtd-direct').hide();
+            $('#mixers-direct').hide();
+            $('.cart').hide();
+          
+    })
+})
+$(document).ready(function(){
+$('#beer').click(function(){
+    $('#direct-page').show();
+    $('#direct-image').show();
+    $('#beer-direct').show();
+    $('#beer-content').show();
+    $('#home-page').hide();
+    $('#product-page').hide();
+    $('#wine-direct').hide();
+    $('#wine-content').hide();
+    $('#spirit-direct').hide();
+    $('#sake-direct').hide();
+    $('#rtd-direct').hide();
+    $('#mixers-direct').hide();
+    $('.cart').hide();
+          
+})
+})
+$(document).ready(function(){
+    $('#sake').click(function(){
+            $('#direct-page').show();
+            $('#direct-image').show();
+            $('#sake-direct').show();
+            $('#home-page').hide();
+            $('#product-page').hide();
+            $('#spirit-direct').hide();
+            $('#wine-direct').hide();
+            $('#wine-content').hide();
+            $('#beer-direct').hide();
+            $('#beer-content').hide();
+            $('#rtd-direct').hide();
+            $('#mixers-direct').hide();
+            $('.cart').hide();
+          
+    })
+})
+$(document).ready(function(){
+    $('#rtd').click(function(){
+            $('#direct-page').show();
+            $('#direct-image').show();
+            $('#rtd-direct').show();
+            $('#home-page').hide();
+            $('#product-page').hide();
+            $('#spirit-direct').hide();
+            $('#wine-direct').hide();
+            $('#wine-content').hide();
+            $('#beer-direct').hide();
+            $('#beer-content').hide();
+            $('#sake-direct').hide();
+            $('#mixers-direct').hide();
+            $('.cart').hide();
+          
+    })
+})
+$(document).ready(function(){
+    $('#mixers').click(function(){
+            $('#direct-page').show();
+            $('#direct-image').show();
+            $('#mixers-direct').show();
+            $('#home-page').hide();
+            $('#product-page').hide();
+            $('#spirit-direct').hide();
+            $('#wine-direct').hide();
+            $('#wine-content').hide();
+            $('#beer-direct').hide();
+            $('#beer-content').hide();
+            $('#sake-direct').hide();
+            $('#rtd-direct').hide();
+            $('.cart').hide();
+          
+    })
+})
+$(document).ready(function(){
+    $('#d-red-wine').click(function(){
+        $('#product-page').show();
+        $('.wineproduct-1').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+
+     })
+   
+})
+$(document).ready(function(){
+    $('#d-rose-wine').click(function(){
+        $('#product-page').show();
+        $('.wineproduct-2').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#d-white-wine').click(function(){
+        $('#product-page').show();
+        $('.wineproduct-3').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#d-sparkling').click(function(){
+        $('#product-page').show();
+        $('.wineproduct-4').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#d-sparkling-rose').click(function(){
+        $('#product-page').show();
+        $('.wineproduct-5').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#i-red-wine').click(function(){
+        $('#product-page').show();
+        $('.wineproduct-6').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#i-champagne').click(function(){
+        $('#product-page').show();
+        $('.wineproduct-7').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#i-champagne-rose').click(function(){
+        $('#product-page').show();
+        $('.wineproduct-8').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#i-sparkling').click(function(){
+        $('#product-page').show();
+        $('.wineproduct-9').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#i-rose-wine').click(function(){
+        $('#product-page').show();
+        $('.wineproduct-10').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#dark-rum').click(function(){
+        $('#product-page').show();
+        $('.spiritproduct-1').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#gold-rum').click(function(){
+        $('#product-page').show();
+        $('.spiritproduct-2').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#white-rum').click(function(){
+        $('#product-page').show();
+        $('.spiritproduct-3').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+
+
+$(document).ready(function(){
+    $('#all-indianrum').click(function(){
+        $('#product-page').show();
+        $('.spiritproduct-1').show();
+        $('.spiritproduct-2').show();
+        $('.spiritproduct-3').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#i-dark-rum').click(function(){
+        $('#product-page').show();
+        $('.spiritproduct-4').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#i-gold-rum').click(function(){
+        $('#product-page').show();
+        $('.spiritproduct-5').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+$(document).ready(function(){
+    $('#i-white-rum').click(function(){
+        $('#product-page').show();
+        $('.spiritproduct-6').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#all-importedrum').click(function(){
+        $('#product-page').show();
+        $('.spiritproduct-4').show();
+        $('.spiritproduct-5').show();
+        $('.spiritproduct-6').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#d-mild').click(function(){
+        $('#product-page').show();
+        $('.beerproduct-1').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#d-strong').click(function(){
+        $('#product-page').show();
+        $('.beerproduct-2').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#d-wheat').click(function(){
+        $('#product-page').show();
+        $('.beerproduct-3').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#all-domesticbeer').click(function(){
+        $('#product-page').show();
+        $('.beerproduct-1').show();
+        $('.beerproduct-2').show();
+        $('.beerproduct-3').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#i-strong').click(function(){
+        $('#product-page').show();
+        $('.beerproduct-4').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#i-mild').click(function(){
+        $('#product-page').show();
+        $('.beerproduct-5').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#all-internationalbeer').click(function(){
+        $('#product-page').show();
+        $('.beerproduct-4').show();
+        $('.beerproduct-5').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('.sake').click(function(){
+        $('#product-page').show();
+        $('.sakeproduct-1').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('.sake-sparkling').click(function(){
+        $('#product-page').show();
+        $('.sakeproduct-2').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#soju').click(function(){
+        $('#product-page').show();
+        $('.sojuproduct-1').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#seltzer').click(function(){
+        $('#product-page').show();
+        $('.seltzerproduct-1').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+ 
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#breezers').click(function(){
+        $('#product-page').show();
+        $('.rtdproduct-1').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#wine-cooler').click(function(){
+        $('#product-page').show();
+        $('.rtdproduct-2').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#cider').click(function(){
+        $('#product-page').show();
+        $('.rtdproduct-3').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#mocktails').click(function(){
+        $('#product-page').show();
+        $('.mixersproduct-1').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#bitters').click(function(){
+        $('#product-page').show();
+        $('.mixersproduct-2').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-3').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#ginger-ale').click(function(){
+        $('#product-page').show();
+        $('.mixersproduct-3').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-4').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#hangover-drink').click(function(){
+        $('#product-page').show();
+        $('.mixersproduct-4').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('.wineproduct-1').hide();
+        $('.wineproduct-2').hide();
+        $('.wineproduct-3').hide();
+        $('.wineproduct-4').hide();
+        $('.wineproduct-5').hide();
+        $('.wineproduct-6').hide();
+        $('.wineproduct-7').hide();
+        $('.wineproduct-8').hide();
+        $('.wineproduct-9').hide();
+        $('.wineproduct-10').hide();
+        $('.spiritproduct-1').hide();
+        $('.spiritproduct-2').hide();
+        $('.spiritproduct-3').hide();
+        $('.spiritproduct-4').hide();
+        $('.spiritproduct-5').hide();
+        $('.spiritproduct-6').hide();
+        $('.beerproduct-1').hide();
+        $('.beerproduct-2').hide();
+        $('.beerproduct-3').hide();
+        $('.beerproduct-4').hide();
+        $('.beerproduct-5').hide();
+        $('.sakeproduct-1').hide();
+        $('.sakeproduct-2').hide();
+        $('.rtdproduct-1').hide();
+        $('.rtdproduct-2').hide();
+        $('.rtdproduct-3').hide();
+        $('.mixersproduct-1').hide();
+        $('.mixersproduct-2').hide();
+        $('.mixersproduct-3').hide();
+        $('.sojuproduct-1').hide();
+        $('.seltzerproduct-1').hide();
+
+    })
+   
+})
+
+$(document).ready(function(){
+    $('#nav-cart').click(function(){
+        $('.cart').show();
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('#product-page').hide();
+
+    })
+})
+
+$(document).ready(function(){
+    $('.cart-button').click(function(){
+        $('.cart').show();
+     
+        $('#home-page').hide();
+        $('#direct-page').hide();
+        $('#product-page').hide();
+
+    })
+})
+
+
+
+function cart(request){
+
+
+            var content = document.getElementById(request);
+            var target = document.getElementById('cart');
+            var clone = content.cloneNode(true);
+            target.appendChild(clone);
+          
+    
+}
